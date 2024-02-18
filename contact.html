@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="Assets/favicon_io/favicon.ico">
+    <title>Manjunath Info Solutions</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b07c1f87ac.js" crossorigin="anonymous"></script>
+    <style>
+      @media screen and (max-width:576px) {
+    .footerContainer{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
+    </style>
+  </head>
+  <body>
+
+<!-- Navbar Starts -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-sm-block" style="background-color: #fff !important;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img class="Logo" src="Assets/Logo1.png" alt="LOGO">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="nav justify-content-center nav-underline">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Services</a>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><a class="dropdown-item" href="#">TeleMarketing</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Bulk SMS promotions</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Missed Call Service</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Toll Free Number</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">VOIP Services</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Lead Generation</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Database Services</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- small screen -->
+<nav class="navbar bg-body-tertiary fixed-top d-sm-none">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img class="LogoSm" src="Assets/Logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+       <img class="LogoSm" style="width: 70px; height: 60px;" src="Assets/Logo.png" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">TeleMarketing</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Bulk SMS promotions</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Missed Call Service</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Toll Free Number</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">VOIP Services</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Lead Generation</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Database Services</a></li>
+            </ul>
+          </li>
+        </ul>
+        <footer>
+          <div class="footerContainer" style="height: 200px;padding-top: 250px;">
+            <div class="footerLogo" style="display: block;text-align: center;">
+              <img src="Assets/Logo1.png" alt="" style="width: 210px;height: 110px; padding-left: 20px;padding-top: 50px;">
+              <p style="padding: 10px;">Copyright &copy;2010. Designed by Manjunath info solutions</p>
+            </div>
+            <div class="Legal overflow-x,auto;">
+        
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Navbar Ends -->
+
+<!--Form starts  -->
+<div class="Contact-us d-none d-sm-block">
+    <div class="container">
+        <h2 style="font-family: 'poppins', sans-serif; text-align: center;">Contact Us</h2>
+    </div>
+    <div class="ContactUs" style="padding-left: 130px;">
+     <div class="Details">
+      <i class="fa-solid fa-envelope" style="padding: 10px;padding-top: 30px;"></i>  Contact@manjunath.info <br>
+      <i class="fa-solid fa-phone"  style="padding: 10px;"></i> <a style="color: black;" href="tel:+91 7416387302">+91 7416387302</a> <br>
+      <i class="fa-solid fa-location-dot" style="padding: 10px;"></i><a style="color: black;" href="https://maps.app.goo.gl/dC6srYXB8RSYygiV9">Manjunath info Solutions 
+        Flat # 201 &202 happy trade center opposite to clock tower Secunderabad 500003</a><link rel="stylesheet" href="https://maps.app.goo.gl/dC6srYXB8RSYygiV9">
+      </div>
+    </div>
+
+</div>
+
+<!-- small Screen -->
+<div class="ContactUsSm d-sm-none" style="padding-top: 70px;">
+  <div class="cotainerSm">
+    <div class="ContactUsSm block-section">
+      <div class="DetailsSm">
+        <h1 style="text-align: center;padding-bottom: 30px;">Contact Us</h1>
+       <i class="fa-solid fa-envelope" ></i>  <a style="color: black;" href="mailto:Contact@manjunath.info ">Contact@manjunath.info </a><br>
+       <hr>
+       <i class="fa-solid fa-phone" ></i> <a style="color: black;" href="tel:+91 7416387302">+91 7416387302</a> <br>
+       <hr>
+       <i class="fa-solid fa-location-dot"></i><a style="color: black;" href="https://maps.app.goo.gl/dC6srYXB8RSYygiV9"><strong>Manjunath info Solutions</strong> Flat # 201 &202 happy trade center opposite to clock tower Secunderabad 500003</a><link rel="stylesheet" href="https://maps.app.goo.gl/dC6srYXB8RSYygiV9">
+       </div>
+     </div>
+  </div>
+</div>
+
+<!-- form ends -->
+
+<!-- footer -->
+
+<footer>
+  <div class="footerContainer" style="height: 200px; background-color: lightgray;">
+    <div class="footerLogo" style="display: block;text-align: center; padding-top: 20px;">
+      <img src="Assets/Logo.png" alt="" style="width: 210px;height: 110px; padding-left: 10px;">
+      <p style="padding: 10px;">Copyright &copy;2010. Designed by Manjunath info solutions</p>
+    </div>
+  </div>
+</footer>
+
+<!-- footer ends -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

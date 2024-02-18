@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'poppins',sans-serif !important;
+    scroll-behavior: smooth;
+}
+.main-heading{
+    h3{
+        
+        margin: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-family: libre baskerviller;
+        font-size: 40px;
+        text-decoration: underline;
+
+    @media (max-width:600px) {
+        font-size: 25px;
+    }    
+    }
+
+    h4{
+        font-size: 14px;
+        color: #c0c0c0;
+    }
+    
+    p{
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 150px;
+        color: #c0c0c0;
+
+    @media (max-width:600px) {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    }
+}
+
+.image-wrapper1{
+    margin: 0 auto;
+}
+
+.image-shadow{
+    width: 457px;
+    height: 310px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,0.25);
+    box-shadow: 0 0 40px rgba(0,0,0,0.25);
+
+    @media (max-width:600px) {
+        width: 357px;
+        height: 210px;
+    }
+}
+
+.block-section{
+   padding-top: 50px;
+}
+
+.Logo{
+    width: 264px;
+    height: 132px;
+    margin-left: 80px;
+}
+@media screen and (max-width:600px) {
+   .LogoSm{
+    width: 110px;
+    height: 82px;
+    margin-left: 20px;
+   }
+}
+
+.collapse {
+    position: absolute;
+    right: 130px;
+}
+.aboutUs {
+    p{
+        font-family: 'poppins', sans-serif ;    
+    }
+@media screen and (max-width:600px) {
+    p{
+        padding-left: 0px !important;
+    }
+}   
+}
+
+.Company{
+    font-family: 'poppins', sans-serif;
+    text-decoration: underline;
+    color: #142E70;
+}
+
+.abour{
+    font-family: 'poppins', sans-serif;
+    color: darkgray;
+}
+.card{
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+@media screen and (min-width:577px) {
+
+.card-wrapper{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card{
+    margin: 0.5em;
+    width: calc(100%/3);
+}
+.image-wrapper{
+    height: 22vw;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width:576px) {
+    .card:not(:first-child){
+        display: none;
+    }
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.Details{
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+}
+.containerSm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* clients Sctn */
